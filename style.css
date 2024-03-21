@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* Mobile First */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #5f2c82;
+}
+div#img {
+    
+    margin: auto;
+    margin-top: 20px;
+    width: 250px;
+    height: 180px;
+    background-image: url(metal.jpg);
+    background-position: center right;
+    background-size: cover;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 1px 1px 2px black;
+
+}
+
+div#iform {
+    background-color: white;
+    display: block;
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 1px 1px 2px black;
+}
+p#msg {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: small;
+}
+h2 {
+    padding: 10px;
+}
+p.dados {
+    background-color: #5f2c82;
+    margin-left: 13px;
+    margin-right: 13px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+span#person, span#key {
+    color: white;
+    padding-left: 2px;
+}
+label, input {
+    background-color: #5f2c82;
+}
+input {
+    padding: 10px;
+    border-radius: 10px;
+}
+#imail, #ipass {
+    background-color: rgb(152, 218, 218);
+    border: 2px solid #5f2c82;
+}
+input#entra {
+    width: 220px;
+    margin-bottom: 5px;
+    color: white;
+    background-color: rgb(86, 180, 180);
+    border-radius: 5px;
+    border: none;
+}
+input#esqueci {
+    width: 220px;
+    margin-bottom: 25px;
+    color: rgb(41, 67, 83);
+    background-color: white;
+    border: 1px solid rgb(67, 192, 150);
+    border-radius: 5px;
+    
+}
+
+input#entra:hover{
+    background-color: rgb(57, 97, 109);
+    cursor: pointer;
+}
+input#esqueci:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}

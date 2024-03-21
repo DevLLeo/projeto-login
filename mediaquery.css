@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    html, body {
+        
+        height: 100vh;
+        background-image: linear-gradient(#5F2C82, #3ea8a8);
+    }
+    div {
+        display: inline-block;
+    }
+    div#img {
+        position: absolute;
+        left: 10%;
+        width: 300px;
+        height: 270px;
+        border-radius: 20px 0px 0px 20px;
+        top: 100px;
+    }
+    div#iform {
+        display: inline-block;
+        position: absolute;
+        width: 450px;
+        height: 270px;
+        top: 120px;
+        left: 35%;
+        border-radius: 0px 20px 20px 0px;
+    }
+    #imail, #ipass {
+        background-color: rgb(152, 218, 218);
+        border: 2px solid #5f2c82;
+        width: 369px;
+    }    
+    input#entra {
+        width: 420px;
+        margin-bottom: 5px;
+        color: white;
+        background-color: rgb(86, 180, 180);
+        border-radius: 5px;
+        border: none;
+    }
+    input#esqueci {
+        width: 420px;
+        margin-bottom: 25px;
+        color: rgb(41, 67, 83);
+        background-color: white;
+        border: 1px solid rgb(67, 192, 150);
+        border-radius: 5px;
+        
+    }
+    h2 {
+        font-weight: bolder;
+        font-size: larger;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    html, body {
+        
+        height: 100vh;
+        background-image: linear-gradient(#5F2C82, #3ea8a8);
+    }
+    div {
+        display: inline-block;
+    }
+    div#img {
+        position: absolute;
+        right: 10%;
+        width: 580px;
+        height: 320px;
+        border-radius: 0px 20px 20px 0px;
+        top: 100px;
+        background-position: bottom left;
+    }
+    div#iform {
+        display: inline-block;
+        position: absolute;
+        width: 450px;
+        height: 320px;
+        top: 120px;
+        right: 55%;
+        border-radius: 20px 0px 0px 20px;
+    }
+    p#msg {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1em;
+    }
+    #imail, #ipass {
+        background-color: rgb(152, 218, 218);
+        border: 2px solid #5f2c82;
+        width: 369px;
+    }    
+    input#entra {
+        width: 420px;
+        margin-bottom: 5px;
+        color: white;
+        background-color: rgb(86, 180, 180);
+        border-radius: 5px;
+        border: none;
+        padding: 10px;
+
+    }
+    input#esqueci {
+        width: 420px;
+        margin-bottom: 0px;
+        color: rgb(41, 67, 83);
+        background-color: white;
+        border: 1px solid rgb(67, 192, 150);
+        border-radius: 5px;
+        padding: 10px;
+    } 
+    h2 {
+            font-size: 2em;
+            font-weight: bolder;
+            margin-top: 5px;
+        }
+}
